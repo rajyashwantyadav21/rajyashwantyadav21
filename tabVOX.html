@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+    .tabbing-wrapper {
+        font-family: system-ui, sans-serif;
+    }
+
+    .tabbing-wrapper ul.nav-tabs {
+        border: none;
+        background: #eeeeee;
+        margin: 0;
+        padding: 0;
+    }
+
+    .tabbing-wrapper ul.nav-tabs li {
+        padding: 12px 15px;
+    }
+
+    .tabbing-wrapper ul.nav-tabs li.active a {
+        border: none;
+        background: none;
+    }
+
+    .tabbing-wrapper ul.nav-tabs li a {
+        font-weight: 500;
+        font-size: 24px;
+        color: rgba(0, 0, 0, 0.87);
+        text-decoration: none;
+        border: none
+    }
+
+    .tabbing-wrapper ul.nav-tabs li:hover a {
+        background: none;
+        border: none;
+    }
+
+    .sideLink {
+        list-style: none;
+        padding: 20px 0 20px;
+    }
+
+    .sideLink li {
+        padding: 12px 0 25px;
+    }
+
+    .sideLink li+li {
+        border-top: 1px solid #ccc;
+    }
+
+    .sideLink li a {
+        font-size: 20px;
+        color: rgba(0, 0, 0, 0.87);
+        text-decoration: none;
+        font-weight: 600;
+        display: block;
+    }
+</style>
+
+<body>
+
+    <div class="container tabbing-wrapper">
+
+        <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#home">Global Delivery</a></li>
+            <li><a data-toggle="tab" href="#menu1">Capability Groups</a></li>
+            <li><a data-toggle="tab" href="#menu2">Industries</a></li>
+            <li><a data-toggle="tab" href="#menu3">Crafts</a></li>
+        </ul>
+
+        <div class="tab-content">
+            <div id="home" class="tab-pane fade in active">
+                <div class="row">
+                    <div class="col-md-4">
+                        <ul class="sideLink">
+                            <li><a href="#">Global Delivery 2021 OKRs</a></li>
+                            <li><a href="#">Global Delivery Strategic Shifts</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-8">
+                        <h2>Welcome to Global Delivery!</h2>
+                        <p>This is intended to be a high-level overview of the Global Delivery operating model. A lot
+                            has happened in the last year to lay the foundation for our company, but there is still a
+                            lot to do to live up to our potential. We have started conducting local activation sessions
+                            to explain this is all in more detail, and we will add more content over the coming
+                            weeks/months as things evolve. Please use the "Ask a Question" feature so that we can make
+                            sure we're not missing something in our future content.</p>
+                        <p><img
+                                src="https://publicisgroupedev.sharepoint.com/sites/VOX_POC/SiteAssets/images/industry1.png" />
+                        </p>
+                        <h2>Our Operating Model</h2>
+                        <p><img
+                                src="https://publicisgroupedev.sharepoint.com/sites/VOX_POC/SiteAssets/images/industry1.png" />
+                        </p>
+                        <h2>4 groups make up our functional organization operating model.</h2>
+                        <div class="table-responsive">
+                            <table class="table table-bordered">
+                                <thead class="thead-light">
+                                    <tr>
+                                        <th scope="col">Go-To-Market</th>
+                                        <th scope="col">Global Delivery </th>
+                                        <th scope="col">Capacity</th>
+                                        <th scope="col">Core Teams</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">
+                                            <ul>
+                                                <li><a href="#">Industry Teams</a></li>
+                                                <li>Practices</li>
+                                                <li>Country</li>
+                                            </ul>
+                                        </th>
+                                        <td>
+                                            <ul>
+                                                <li><a href="#">Strategy & Consulting</a></li>
+                                                <li><a href="#">Experience</a></li>
+                                                <li><a href="#">Engineering</a></li>
+                                                <li><a href="#">Product</a></li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li>Planning</li>
+                                                <li>Hiring & Contracting</li>
+                                                <li>Staffing</li>
+                                            </ul>>
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li>People Success</li>
+                                                <li>Finance</li>
+                                                <li>Marketing</li>
+                                                <li>GCRO</li>
+                                                <li>Legal</li>
+                                                <li>IT</li>
+                                            </ul>>
+                                        </td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div id="menu1" class="tab-pane fade">
+                <div class="row">
+                    <div class="col-md-4">
+                        <p>We deliver business transformation through our PS HOW. </p>
+
+                        <p><a href="#">Experience</a></p>
+                        <p>Design using our amazing creative to build rich, robust experiences.</p>
+
+                        <p><a href="#">Strategy & Consulting</a></p>
+                        <p>Understand the customer and build a business strategy tied to a customer experience strategy.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="" />
+                    </div>
+                    <div class="col-md-4">
+                        <p><a href="#">Engineering</a></p>
+                        <p>Build the technology for the experience, measure with analytics, and optimize.</p>
+
+                        <p><a href="#">Product</a></p>
+                        <p>Transform from outputs to outcomes and shift our way of working to a product mindset.</p>
+                    </div>
+                    <div class="col-md-12">
+                        <p>As we work to become the partner of choice for delivering DBT client outcomes, we’ve made
+                            strategic changes to our Delivery model and ways of working that apply new and more skills
+                            to support solutions our DBT strategy promises. PS HOW is how we change our ways of working
+                            to be more current in lean agile methods, not only for ourselves but for our clients.</p>
+                        <ul>
+                            <li>We are evolving our capabilities by making additions such as Management Consulting that
+                                allow us to evaluate our client's business and find sources of value.</li>
+                            <li>We are amplifying data and AI skills because data is the fuel to drive everything and
+                                needs to be our fuel too.</li>
+                            <li>We are advancing the way we have previously thought about creative by shifting less of
+                                the way we apply our design thinking to marketing and advertising problems, and more to
+                                how we design experiences that motivate human beings associated with the DBT solutions
+                                we put in place.</li>
+                            <li>Lastly, we are moving away from thinking about technology as a skill, to engineering
+                                using technology to produce outcomes.</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div id="menu2" class="tab-pane fade">
+                <h2>News</h2>
+            </div>
+            <div id="menu3" class="tab-pane fade">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>What Are Crafts?</h2>
+                        <p>Crafts represent a set of skills needed for particular roles within the Capability Groups (or
+                            CGs)
+                        </p>
+                        <ul>
+                            <li> Each craft will be owned/anchored to one of the four CGs.</li>
+                            <li>Note, we are retiring Discipline as a construct from our operating model.</li>
+                            <li>Craft is one of the three primary axes for performance evaluation (with the others being
+                                Client
+                                Impact and Core Values).</li>
+                        </ul>
+
+                        <div class="table-responsive">
+                            <table class="table table-bordered">
+                                <thead class="thead-light">
+                                    <tr>
+                                        <th scope="col"><a href="#">Strategy & Consulting</a></th>
+                                        <th scope="col"><a href="#">Experience</a></th>
+                                        <th scope="col"><a href="#">Engineering</a></th>
+                                        <th scope="col"><a href="#">Product</a></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">
+                                            <ul>
+                                                <li><a href="#">Management Consulting</a></li>
+                                                <li><a href="#">CX & Innovation Consulting</a></li>
+                                                <li><a href="#">Engineering & Tech Strategy</a></li>
+                                                <li><a href="#">Data & AI Strategy</a></li>
+                                                <li><a href="#">Supply Chain Strategy</a></li>
+                                                <li><a href="#">Research & Insights</a></li>
+                                            </ul>
+                                        </th>
+                                        <td>
+                                            <ul>
+                                                <li>Art Direction</li>
+                                                <li>Content Strategy/Content Design</li>
+                                                <li>User Experience</li>
+                                                <li>Copywriting</li>
+                                                <li>Cinematography</li>
+                                                <li>Audio Engineering</li>
+                                                <li>VFX (CGI, 3D)</li>
+                                                <li>Editing (Finishing)</li>
+                                                <li>Motion Design (Animation)</li>
+                                                <li>Media Strategy</li>
+                                                <li>SEO/Search Strategy</li>
+                                                <li>Social Strategy</li>
+                                                <li>Specialized Production</li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li>Experience Engineering</li>
+                                                <li>Platform Engineering</li>
+                                                <li>Quality Engineering</li>
+                                                <li>Data Engineering</li>
+                                                <li>Data Science</li>
+                                                <li>Analytics & Reporting</li>
+                                                <li>Infrastructure & DevOps Engineering</li>
+                                                <li>Production Engineering</li>
+                                                <li>Technology & Data Strategy</li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li>Agile Program Management
+                                                </li>
+                                                <li>Product Management</li>
+
+                                            </ul>>
+                                        </td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
